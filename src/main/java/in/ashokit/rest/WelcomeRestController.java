@@ -18,7 +18,7 @@ public class WelcomeRestController {
 	@GetMapping
 	public String welcomeMsg() {
 		logger.info("***** welcomeMsg() execution start *****");
-		String msg = "Welcome to K8s Deploy 0407 V1.1";
+		String msg = "Welcome to K8s Deploy 0407 V1.2";
 		logger.info("***** welcomeMsg() execution end *****");
 		return msg;
 	}
